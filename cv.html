@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV — Delphine Hounye</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .cv-page { background: #f4f2ee; padding: 60px 1.5rem 90px; }
+    .cv-doc {
+      max-width: 900px; margin: 0 auto; background: #ffffff;
+      padding: 3.5rem 3.5rem 3rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #222;
+    }
+    .cv-head { text-align: center; margin-bottom: 2rem; }
+    .cv-head h1 { font-size: 1.6rem; letter-spacing: 0.03em; margin: 0 0 0.35rem; color: #1a1a1a; }
+    .cv-head .cv-affil { font-size: 0.92rem; color: #444; margin-bottom: 0.35rem; }
+    .cv-head .cv-contact { font-size: 0.85rem; color: #444; }
+    .cv-head .cv-contact a { color: var(--navy); text-decoration: none; }
+    .cv-head .cv-contact a:hover { text-decoration: underline; }
+    .cv-sec { margin-top: 2.1rem; }
+    .cv-sec h2 {
+      font-size: 0.95rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--navy); border-bottom: 1.5px solid var(--navy); padding-bottom: 0.3rem; margin-bottom: 0.9rem;
+    }
+    .cv-row { display: flex; justify-content: space-between; gap: 1.5rem; margin-bottom: 0.15rem; }
+    .cv-row .cv-role { font-weight: 700; font-size: 0.9rem; color: #1a1a1a; }
+    .cv-row .cv-date { font-style: italic; font-size: 0.82rem; color: #555; white-space: nowrap; text-align: right; }
+    .cv-sub { font-style: italic; font-size: 0.85rem; color: #555; margin-bottom: 0.5rem; }
+    .cv-entry { margin-bottom: 1.5rem; }
+    .cv-entry:last-child { margin-bottom: 0; }
+    .cv-bullets { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+    .cv-bullets li { font-size: 0.85rem; line-height: 1.55; color: #333; margin-bottom: 0.35rem; }
+    .cv-bullets ul { list-style: circle; margin: 0.3rem 0 0.3rem 0; padding-left: 1.1rem; }
+    .cv-proj-title { font-weight: 700; font-size: 0.87rem; color: #1a1a1a; margin: 1rem 0 0.15rem; }
+    .cv-proj-meta { font-style: italic; font-size: 0.8rem; color: #666; margin-bottom: 0.3rem; }
+    .cv-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .cv-table th { text-align: left; border-bottom: 1px solid #ccc; padding: 0.4rem 0.6rem; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; color: #555; }
+    .cv-table td { border-bottom: 1px solid #eee; padding: 0.55rem 0.6rem; vertical-align: top; color: #333; }
+    .cv-table td:first-child { white-space: nowrap; font-style: italic; color: #555; }
+    .cv-table td:last-child { white-space: nowrap; color: #555; }
+    .cv-skills-table td:first-child { font-style: italic; color: #444; width: 220px; }
+    .cv-download-bar { max-width: 900px; margin: 0 auto 1.5rem; display:flex; gap:1rem; flex-wrap:wrap; justify-content:flex-end; }
+    @media (max-width: 700px) {
+      .cv-doc { padding: 2rem 1.25rem; }
+      .cv-row { flex-direction: column; gap: 0.1rem; }
+      .cv-row .cv-date { text-align: left; }
+      .cv-table td:first-child, .cv-table td:last-child { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Delphine <span>Hounye</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Projects</a></li>
+      <li><a href="talks.html">Talks</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="cv.html" class="active">CV</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="section-label">Curriculum Vitae</div>
+    <h1>Full CV</h1>
+    <p>Complete academic-style CV. Download the PDF, or read it in full below.</p>
+  </div>
+</div>
+
+<section class="cv-page">
+
+  <div class="cv-download-bar">
+    <a href="Delphine_Hounye_CV_EN.pdf" target="_blank" class="btn btn-primary">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download PDF (English)
+    </a>
+    <a href="Delphine_Hounye_CV_FR.pdf" target="_blank" class="btn btn-outline">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Télécharger (Français)
+    </a>
+  </div>
+
+  <div class="cv-doc">
+
+    <div class="cv-head">
+      <h1>DELPHINE GBESSOUVÈGNI HOUNYE</h1>
+      <div class="cv-affil">Statistician-Economist · Research Analyst, Development Expertise Lab (DEL) · Cotonou, Benin</div>
+      <div class="cv-contact">
+        +229 01 63 963 715 &nbsp;|&nbsp;
+        <a href="mailto:delphine.hounye@devexpertiselab.com">delphine.hounye@devexpertiselab.com</a> &nbsp;|&nbsp;
+        <a href="http://www.linkedin.com/in/delphine-g-hounye" target="_blank">LinkedIn</a> &nbsp;|&nbsp;
+        <a href="https://github.com/dhounye" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="cv-sec">
+      <h2>Education</h2>
+      <table class="cv-table">
+        <tr><th>Degree</th><th>University</th><th>Years</th></tr>
+        <tr><td style="white-space:normal; font-style:normal; color:#333;">M.A. in Mathematics, Economics and Statistics</td><td style="white-space:normal;">African School of Economics (ASE)</td><td>2022 – 2024</td></tr>
+        <tr><td style="white-space:normal; font-style:normal; color:#333;">B.Sc. in Statistics and Computer Science</td><td style="white-space:normal;">African School of Economics (ASE)</td><td>2019 – 2022</td></tr>
+      </table>
+    </div>
+
+    <!-- POSITIONS -->
+    <div class="cv-sec">
+      <h2>Positions and Functions</h2>
+
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Research Analyst</span><span class="cv-date">Since Jul. 2025</span></div>
+        <div class="cv-sub">Development Expertise Lab (DEL)</div>
+        <ul class="cv-bullets">
+          <li>Under the direct supervision of DEL's General Director, contributes to the full cycle of applied research and evaluation projects for international donors and partners (Center for Civilians in Conflict, National Statistics Bureau of Bhutan, Paris School of Economics, London Business School, Princeton University, etc.).</li>
+          <li>Analytical studies and data analysis: conducts descriptive and econometric analyses (logit / OLS regressions, Oaxaca-Blinder decompositions, sub-group analyses) on administrative and survey datasets of more than 75,000 observations.</li>
+          <li>Data collection and data management: programming of questionnaires (XLSForm, SurveyCTO, Survey Solutions, KoboCollect), high-frequency checks (HFC), back-checks, append and cleaning of multi-country datasets.</li>
+          <li>Dashboards and visualizations: development of dynamic dashboards in R Shiny and Excel for real-time monitoring of field agents (up to 30 agents and 3,600+ questionnaires).</li>
+          <li>Report writing and analytical notes; contribution to the drafting of technical and methodological proposals for DEL's business development.</li>
+          <li>Production of training materials (Stata, Python), enumerator manuals and visual materials (badges, presentations) for workshops and field collections.</li>
+          <li>Contractual and administrative support: drafting of contracts, attestations and other administrative documents required for project implementation.</li>
+        </ul>
+
+        <div class="cv-proj-title">Diagnostic study on the Nutritional Supplementation Program (PSN) and Malaria Vaccination (RTS,S) in Benin</div>
+        <div class="cv-proj-meta">Princeton University · since May 2026 · Research Analyst / Coordinator</div>
+        <ul class="cv-bullets">
+          <li>Coordination of the study from inception, including contribution to the study design and guidelines.</li>
+          <li>Programming of the questionnaires (XLSForm, SurveyCTO), high-frequency checks (HFC), back-checks and data cleaning.</li>
+          <li>Collection of qualitative data in health centers and households, and drafting of the corresponding analytical note.</li>
+          <li>Field supervision of enumerators for the quantitative data collection across the 15 selected communes.</li>
+          <li>Coordination of the operational logistics of the study.</li>
+        </ul>
+
+        <div class="cv-proj-title">Impact study on students' attitudes and opinions regarding the use of artificial intelligence (research project based on LLMs)</div>
+        <div class="cv-proj-meta">Paris School of Economics, London Business School &amp; RAMD Fund · since Mar. 2026 · Research Analyst / Coordinator</div>
+        <ul class="cv-bullets">
+          <li>Three-phase impact study in Benin (baseline – implementation – endline). Inception meeting and contribution to the study guidelines. Support to the drafting of the technical and methodological proposal and to the development of the enumerator manual.</li>
+          <li>Baseline phase (completed): programming of the baseline questionnaire in XLSForm, deployment on SurveyCTO, high-frequency checks (HFC), data cleaning and back-checks. Development of a dynamic real-time R Shiny dashboard for the monitoring of 30 data collection agents who administered more than 3,600 questionnaires.</li>
+          <li>Implementation phase (completed): operational management of participants' use of the AskBenin and AskVera LLM-based AI chatbots to research political news, course-related topics and personal queries; administration and tracking of quizzes designed to assess participants' political knowledge.</li>
+          <li>Endline phase (ongoing): preparation of the endline survey instruments and data collection workflows, phone survey.</li>
+          <li>Full coordination of the operational logistics of the study in Benin: preparation and submission of the statistical visa file to INStaD and participation in the defense of the file; recruitment, training and supervision of enumerators; management of payments to data collection agents and crediting of mobile money accounts; design of the project badges in Microsoft Publisher.</li>
+        </ul>
+
+        <div class="cv-proj-title">Support for Community Protection Mechanisms and Civilian Resilience in the Benin-Togo Border Areas (SMCP-BT)</div>
+        <div class="cv-proj-meta">Center for Civilians in Conflict (CIVIC-PSOP) · Nov. 2025 – Feb. 2026 · Research Analyst / Report Co-author</div>
+        <ul class="cv-bullets">
+          <li>Inception meeting and contribution to the study guidelines.</li>
+          <li>Programming of questionnaires in XLSForm.</li>
+          <li>Data management and cleaning of data collected in Benin (Matéri, Gouandé) and Togo (Kpendjal 1): HFC, back-checks and post-collection cleaning.</li>
+          <li>Appending of the combined Benin-Togo data and transmission for analysis.</li>
+          <li>Contribution to the drafting of the analytical report (forthcoming) and to the preparation of PowerPoint presentations.</li>
+        </ul>
+
+        <div class="cv-proj-title">Gender Inequalities in Bhutan using Civil Registration and Vital Statistics (CRVS-Bhutan)</div>
+        <div class="cv-proj-meta">National Statistics Bureau of Bhutan &amp; Ministry of Health of Bhutan · Aug. 2025 – Jan. 2026 · Research Analyst / Report Co-author</div>
+        <ul class="cv-bullets">
+          <li>Study on gender gaps in the registration of births and deaths in Bhutan, conducted with the National Statistics Bureau and the Ministry of Health.</li>
+          <li>Conducted analyses on CRVS microdata (75,659 observations) and MICS / NBS data (26,314 observations), with a focus on gender inequalities, infant mortality and under-five mortality. Estimation in Stata of logit regressions (probability of late registration) and OLS regressions (number of days between the event and the registration), and application of the Oaxaca-Blinder decomposition to quantify the contribution of the child's sex to the observed gaps. Production of tables and figures for the report (Stata and Jupyter Notebook / Python).</li>
+          <li>Contribution to the drafting of the analytical report (forthcoming) and to the related presentations.</li>
+        </ul>
+
+        <div class="cv-proj-title">Nightlight Peacekeeping Project</div>
+        <div class="cv-proj-meta">DEL internal research project · Aug. – Nov. 2025</div>
+        <ul class="cv-bullets">
+          <li>Download and processing, in Python, of nighttime light satellite data for Sierra Leone, Côte d'Ivoire and Liberia.</li>
+          <li>Production of cartographic visualizations and time series for the three countries.</li>
+        </ul>
+
+        <div class="cv-proj-title">Afrobarometer Mali</div>
+        <div class="cv-proj-meta">DEL internal research project · Aug. 2025</div>
+        <ul class="cv-bullets">
+          <li>Cleaning and append of the Afrobarometer Mali waves and harmonization of the outcomes for comparative analysis; final dataset of 13,051 observations prepared for analysis.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Research Assistant</span><span class="cv-date">Nov. 2024 – Jun. 2025</span></div>
+        <div class="cv-sub">Inawa Institute</div>
+        <ul class="cv-bullets">
+          <li>Onboarding, setting up of workspaces and task planning on Microsoft Planner.</li>
+          <li>Programming of data collection tools (Excel, KoboCollect, SurveyCTO) and support to the implementation of the Third-Party Monitoring project (GH PEARL).</li>
+          <li>Preparation of proposals, finalisation of field-agent monitoring dashboards and drafting of technical proposals.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SELECTED PROJECTS TABLE -->
+    <div class="cv-sec">
+      <h2>Selected Projects: Studies and Surveys</h2>
+      <table class="cv-table">
+        <tr><th>Dates</th><th>Project / Program</th><th>Institutions</th><th>Position</th></tr>
+        <tr>
+          <td>Dec. 2024 – Feb. 2025</td>
+          <td style="white-space:normal;"><strong>Global Health Program Evaluation, Analysis, Research and Learning (GH PEARL)</strong> — Preparation and translation of training materials; programming of data collection tools in XLSForm and deployment on SurveyCTO; daily reporting; development of an Excel dashboard for the monitoring of 51 field agents.</td>
+          <td style="white-space:normal;">Inawa Institute for The Palladium Group / USAID</td>
+          <td>Research Assistant</td>
+        </tr>
+        <tr>
+          <td>8–17 Nov. 2024</td>
+          <td style="white-space:normal;"><strong>Impact evaluation of the SME training and coaching program (SME Loop)</strong> — Field data collection from small and medium-sized enterprises.</td>
+          <td style="white-space:normal;">ASE / IERPE</td>
+          <td>Enumerator</td>
+        </tr>
+        <tr>
+          <td>Sep. – Oct. 2024</td>
+          <td style="white-space:normal;"><strong>Benin Third Party Monitoring — Co-design Workshop</strong> — Co-design workshop with implementing partners and USAID AORs.</td>
+          <td style="white-space:normal;">Inawa Institute for The Palladium Group / USAID</td>
+          <td>Facilitator</td>
+        </tr>
+        <tr>
+          <td>Jul. – Sep. 2024</td>
+          <td style="white-space:normal;"><strong>Does Parental Involvement Improve Student Performance? The Role of Information Asymmetry</strong> — Entry of grades for Grade 8 and Grade 9 students in CEGs in the Atlantique department; entry of financial data on school fees.</td>
+          <td style="white-space:normal;">CKDev – Centre Kemt pour le Développement</td>
+          <td>Data Entry Clerk</td>
+        </tr>
+        <tr>
+          <td>Nov. – Dec. 2023</td>
+          <td style="white-space:normal;"><strong>Analysis of the explanatory factors of conflicts between herders and farmers in Benin</strong> — Questionnaire programming in Survey Solutions, data verification, field supervision of 440 respondents in Kika arrondissement, Tchaourou commune, Borgou department.</td>
+          <td style="white-space:normal;">ASE / IFM – IERPE</td>
+          <td>Field Supervisor</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- PUBLICATIONS -->
+    <div class="cv-sec">
+      <h2>Publications and Technical Reports</h2>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Gender Inequalities in Bhutan using Civil Registration and Vital Statistics</span><span class="cv-date">Forthcoming (2026)</span></div>
+        <div class="cv-sub">Joint report by Development Expertise Lab and the National Statistics Bureau of Bhutan. Contribution to the data analysis and to the drafting of the report.</div>
+      </div>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Support for Community Protection Mechanisms and Civilian Resilience in the Benin-Togo Border Areas (SMCP-BT)</span><span class="cv-date">Forthcoming (2026)</span></div>
+        <div class="cv-sub">Report by Development Expertise Lab for the Center for Civilians in Conflict (CIVIC). Contribution to the data management and the drafting of the report and presentation.</div>
+      </div>
+    </div>
+
+    <!-- TEACHING -->
+    <div class="cv-sec">
+      <h2>Teaching and Capacity Building</h2>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">South Sudan Stata Training</span><span class="cv-date">Oct. 2025 – Jan. 2026</span></div>
+        <div class="cv-sub">Development Expertise Lab (DEL)</div>
+        <p style="font-size:0.85rem; color:#333; line-height:1.55; margin:0.3rem 0 0;">Design and development of Stata training materials: presentations, hands-on exercises, applied do-files, tests and assessments of participants.</p>
+      </div>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Python Programming Trainer — AI Club CAEB, Porto-Novo</span><span class="cv-date">Since Mar. 2023</span></div>
+        <p style="font-size:0.85rem; color:#333; line-height:1.55; margin:0.3rem 0 0;">Training of cohorts of about 25 participants over four months. Supports learners on basic and advanced applications of the Python language.</p>
+      </div>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Teaching Assistant — Stata Applications</span><span class="cv-date">Aug. 2024 and Aug. 2025</span></div>
+        <div class="cv-sub">African School of Economics (ASE)</div>
+        <p style="font-size:0.85rem; color:#333; line-height:1.55; margin:0.3rem 0 0;">Support to first-year master's students on data cleaning and pre-processing. Hands-on applications: Logit, Probit, linear regression for binary variables, ANOVA, PCA and factor analysis.</p>
+      </div>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Benin Excellence AI Summer School — Co-trainer and Project Supervisor</span><span class="cv-date">Jul.–Aug. 2022, 2023, 2024, 2025, 2026</span></div>
+        <p style="font-size:0.85rem; color:#333; line-height:1.55; margin:0.3rem 0 0;">Co-training of about 120 participants per year with a team of around 25 trainers. Supervision of hands-on sessions in Python programming and graphical statistics during the machine learning week. Direct supervision of student capstone projects, including:</p>
+        <ul class="cv-bullets">
+          <li>2023 — Optimal Antenna Positioning: Python algorithm that scans a map of Benin to identify the optimal antenna location maximizing network coverage, minimizing coverage gaps and reducing infrastructure costs.</li>
+          <li>2024 — Automatic Traffic Counting: computer vision pipeline (Python, Google Colab, Roboflow annotation, data augmentation, YOLOv5) to detect and count zémidjans (motorcycle taxis) from road traffic videos.</li>
+          <li>2024 — Blood Cell Counting: computer vision pipeline (Python, YOLOv8) on annotated and augmented medical imagery to classify red blood cells as healthy or abnormal.</li>
+          <li>2025 — Electricity Consumption Prediction: time-series forecasting in Python on SBEE (Société Béninoise d'Énergie Électrique) consumption data, with seasonality-driven insights to support production planning and reduce power outages.</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <div class="cv-row"><span class="cv-role">Teaching Assistant — African School of Economics</span><span class="cv-date">Oct. 2023 – Mar. 2024</span></div>
+        <p style="font-size:0.85rem; color:#333; line-height:1.55; margin:0.3rem 0 0;">Python courses for second- and third-year undergraduate students. Teaching of R and Stata for first-year undergraduate students; design of quizzes and mid-term exams.</p>
+      </div>
+    </div>
+
+    <!-- TRAININGS -->
+    <div class="cv-sec">
+      <h2>Trainings, Workshops and Conferences</h2>
+      <table class="cv-table">
+        <tr><td>Since Sept. 8, 2026</td><td style="white-space:normal;">Designing and Running Randomized Evaluations — MITx / J-PAL MicroMasters Program.</td></tr>
+        <tr><td>Since Sept. 8, 2026</td><td style="white-space:normal;">BREAD-IGC virtual PhD-level course on political economy 2026 — Bureau for Research and Economic Analysis of Development (BREAD) / International Growth Centre (IGC). Ongoing.</td></tr>
+        <tr><td>Oct. 2025</td><td style="white-space:normal;">Mass mobilization and democratization — PRIO Research School on Peace and Conflict, Oslo, 29–31 October 2025.</td></tr>
+        <tr><td>Since Nov. 2024</td><td style="white-space:normal;">Google Data Analytics: Professional Certificate — Coursera.</td></tr>
+        <tr><td>Mar. 2025</td><td style="white-space:normal;">Introduction to Behavioral Science in Public Policy — IBRD, IDA, World Bank Group.</td></tr>
+        <tr><td>Nov. 2024</td><td style="white-space:normal;">Manage Successful Field Research — World Bank DIME Group.</td></tr>
+        <tr><td>Sep. 2024</td><td style="white-space:normal;">Work Smarter, Not Harder: Time Management — Coursera.</td></tr>
+        <tr><td>Nov. – Dec. 2023</td><td style="white-space:normal;">Reproducible Research Fundamentals — World Bank DIME Group.</td></tr>
+        <tr><td>Jul. – Aug. 2021</td><td style="white-space:normal;">Benin Excellence AI Summer School (Python, Machine Learning, Robotics) — Bénin Excellence NGO, Vallet Foundation, UNDP.</td></tr>
+      </table>
+    </div>
+
+    <!-- COMMUNICATION -->
+    <div class="cv-sec">
+      <h2>Communication / Public Presentation Experience</h2>
+      <table class="cv-table">
+        <tr><td>Mar. 2026</td><td style="white-space:normal;">Participation in the defense of the file submitted to INStaD for the granting of the statistical visa for the baseline study on the use of artificial intelligence by students.</td></tr>
+        <tr><td>Sep. – Oct. 2024</td><td style="white-space:normal;">Facilitation of a co-design workshop with implementing partners and USAID AORs as part of the Benin Third Party Monitoring.</td></tr>
+        <tr><td>2022 – 2024</td><td style="white-space:normal;">Co-facilitation of training sessions in Python, graphical statistics and machine learning as part of the Benin Excellence AI Summer School.</td></tr>
+      </table>
+    </div>
+
+    <!-- SCHOLARSHIPS -->
+    <div class="cv-sec">
+      <h2>Scholarships</h2>
+      <table class="cv-table">
+        <tr><td>2019 – 2022</td><td style="white-space:normal;">African School of Economics Excellence Scholarship.</td></tr>
+        <tr><td>2019 – 2020</td><td style="white-space:normal;">Partial Scholarship from the Government of Benin.</td></tr>
+        <tr><td>2016 – 2022</td><td style="white-space:normal;">Vallet Foundation Scholarship.</td></tr>
+      </table>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="cv-sec">
+      <h2>Computer Skills</h2>
+      <table class="cv-table cv-skills-table">
+        <tr><td>Statistics &amp; data analysis</td><td style="white-space:normal;">Python (Jupyter Notebook, pandas), Stata, R, EViews, QGIS, SQL, pivot tables.</td></tr>
+        <tr><td>Machine learning &amp; computer vision</td><td style="white-space:normal;">Python ML stack (YOLOv5, YOLOv8, Google Colab, Roboflow), time-series forecasting, data annotation and augmentation.</td></tr>
+        <tr><td>Data collection &amp; surveys</td><td style="white-space:normal;">Survey Solutions, KoboCollect, SurveyCTO, XLSForm, Google Forms, Microsoft Forms.</td></tr>
+        <tr><td>Dashboards &amp; visualisation</td><td style="white-space:normal;">R Shiny (dynamic real-time dashboards), Excel (field monitoring dashboards).</td></tr>
+        <tr><td>Generative AI &amp; LLMs</td><td style="white-space:normal;">Skilled use of Claude AI for analytical writing, literature reviews and optimization of research workflows; exposure to research projects based on LLMs.</td></tr>
+        <tr><td>Office &amp; design</td><td style="white-space:normal;">LaTeX, MS Office, Microsoft Planner, Microsoft Publisher (design of badges and visual materials).</td></tr>
+      </table>
+    </div>
+
+    <!-- LANGUAGES -->
+    <div class="cv-sec">
+      <h2>Languages</h2>
+      <p style="font-size:0.85rem; color:#333;">Sêtô: Native &nbsp;·&nbsp; French: Native &nbsp;·&nbsp; English: Fluent</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>© 2026 Delphine Gbessouvègni Hounye · Development Expertise Lab</footer>
+<script src="main.js"></script>
+</body>
+</html>
