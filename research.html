@@ -3,14 +3,23 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects — Delphine Hounye</title>
+  <title>Projects · Delphine Hounye</title>
+  <meta name="description" content="Impact studies, field surveys and analyses conducted by Delphine Hounye for international donors and partners at Development Expertise Lab."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Delphine Hounye"/>
+  <meta property="og:title" content="Projects · Delphine Hounye"/>
+  <meta property="og:description" content="Impact studies, field surveys and analyses conducted for international donors and partners at Development Expertise Lab."/>
+  <meta property="og:url" content="https://dhounye.github.io/research.html"/>
+  <meta property="og:image" content="https://dhounye.github.io/profile.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="canonical" href="https://dhounye.github.io/research.html"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
 <nav>
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand">Delphine <span>Hounye</span></a>
+    <a href="index.html" class="brand"><i></i>Delphine Hounye</a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="research.html" class="active">Projects</a></li>
@@ -18,190 +27,210 @@
       <li><a href="teaching.html">Teaching</a></li>
       <li><a href="cv.html">CV</a></li>
     </ul>
-    <div class="hamburger"><span></span><span></span><span></span></div>
+    <a href="mailto:delphine.hounye@devexpertiselab.com" class="nav-cta"><i></i>Contact</a>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
-<div class="page-hero">
-  <div class="page-hero-inner">
-    <div class="section-label">Applied Research</div>
-    <h1>Projects &amp; Studies</h1>
-    <p>Impact studies, field surveys, and analyses conducted for donors and international partners at Development Expertise Lab.</p>
+<div class="page-head">
+  <div class="wrap">
+    <h1>Check out the projects I have worked on.</h1>
+    <p>Impact studies, field surveys and data analyses for universities, NGOs and statistics offices, from questionnaire design to the final report.</p>
+    <div class="filters" id="filters">
+      <button class="on" data-f="all">All</button>
+      <button data-f="ongoing">Ongoing</button>
+      <button data-f="del">Development Expertise Lab</button>
+      <button data-f="earlier">Earlier work</button>
+    </div>
   </div>
 </div>
 
-<!-- SELECTED PROJECTS -->
-<section class="papers-section">
-  <div class="section-inner">
-    <div class="section-label" style="color:var(--gold)">Selected Projects</div>
-    <h2 class="section-title">Ongoing <em>Studies</em></h2>
-    <p class="section-sub">Projects led as Research Analyst / Coordinator at Development Expertise Lab (since 2025).</p>
+<section style="padding-top:1rem">
+  <div class="wrap">
+    <div class="proj-list" id="projects">
 
-    <div class="paper-list fade-up">
-
-      <!-- 1 -->
-      <div class="paper-item">
-        <div class="paper-year">2026<br><span style="font-size:0.7rem;opacity:0.6">Ongoing</span></div>
-        <div class="paper-content">
-          <h3>Diagnostic Study on the Nutritional Supplementation Program (PSN) and Malaria Vaccination (RTS,S) in Benin</h3>
-          <p>For Princeton University (since May 2026). Coordination of the study from inception: programming of questionnaires (<strong style="color:rgba(255,255,255,0.9)">XLSForm</strong>, <strong style="color:rgba(255,255,255,0.9)">SurveyCTO</strong>), high-frequency checks, qualitative data collection in health centers and households, field supervision of enumerators across 15 selected communes, and coordination of operational logistics.</p>
-          <div class="data-badges">
-            <span class="data-badge" title="XLSForm: standard format for programming electronic questionnaires">XLSForm</span>
-            <span class="data-badge" title="SurveyCTO: mobile data collection platform for field research">SurveyCTO</span>
-            <span class="data-badge" title="HFC: high-frequency checks performed during data collection to catch errors early">HFC</span>
-          </div>
+      <article class="proj dark reveal" data-tags="ongoing del">
+        <div class="when">2026<small>since May · ongoing</small></div>
+        <div>
+          <h3>Diagnostic study on the Nutritional Supplementation Program (PSN) and Malaria Vaccination (RTS,S) in Benin</h3>
+          <div class="for">Princeton University · Research Analyst / Coordinator</div>
+          <ul>
+            <li>Coordination of the study from inception, including the study design and guidelines.</li>
+            <li>Questionnaire programming (XLSForm, SurveyCTO), high-frequency checks, back-checks and data cleaning.</li>
+            <li>Qualitative data collection in health centres and households, and the corresponding analytical note.</li>
+            <li>Field supervision of enumerators for the quantitative collection across 15 communes; operational logistics.</li>
+          </ul>
+          <div class="chips"><span>XLSForm</span><span>SurveyCTO</span><span>HFC</span><span>Qualitative</span></div>
         </div>
-        <div class="paper-tag">Ongoing Study</div>
-      </div>
+      </article>
 
-      <!-- 2 -->
-      <div class="paper-item">
-        <div class="paper-year">2026<br><span style="font-size:0.7rem;opacity:0.6">Ongoing</span></div>
-        <div class="paper-content">
-          <h3>Impact Study on Students' Attitudes and Opinions Regarding the Use of Artificial Intelligence</h3>
-          <p>For Paris School of Economics, London Business School and the RAMD Fund (since March 2026). Three-phase impact study in Benin (baseline, implementation, endline). Programming of the baseline questionnaire, deployment on <strong style="color:rgba(255,255,255,0.9)">SurveyCTO</strong>, development of a dynamic real-time <strong style="color:rgba(255,255,255,0.9)">R Shiny</strong> dashboard for monitoring 30 data collection agents who administered more than 3,600 questionnaires; operational management of participants' use of the AskBenin and AskVera LLM-based chatbots; preparation and defense of the statistical visa file with INStaD.</p>
-          <div class="data-badges">
-            <span class="data-badge" title="R Shiny: interactive dashboards for real-time monitoring of data collection">R Shiny</span>
-            <span class="data-badge" title="Large language models used in the project's chatbots">LLM</span>
-          </div>
+      <article class="proj dark reveal" data-tags="ongoing del">
+        <div class="when">2026<small>since March · ongoing</small></div>
+        <div>
+          <h3>Impact study on students' attitudes and opinions regarding the use of artificial intelligence</h3>
+          <div class="for">Paris School of Economics · London Business School · RAMD Fund · Research Analyst / Coordinator</div>
+          <ul>
+            <li>Three-phase design in Benin (baseline, implementation, endline); support to the technical proposal and the enumerator manual.</li>
+            <li>Baseline: XLSForm questionnaire deployed on SurveyCTO, HFC, cleaning and back-checks; real-time R Shiny dashboard for 30 enumerators and 3,600+ questionnaires.</li>
+            <li>Implementation: operational management of participants' use of the AskBenin and AskVera LLM-based chatbots; quizzes on political knowledge.</li>
+            <li>Endline (ongoing): survey instruments and workflows, phone survey.</li>
+            <li>Statistical visa file prepared, submitted and defended at INStaD; recruitment, training, payments and mobile money for the field team.</li>
+          </ul>
+          <div class="chips"><span>R Shiny</span><span>SurveyCTO</span><span>LLM</span><span>INStaD visa</span></div>
         </div>
-        <div class="paper-tag">Ongoing Study</div>
-      </div>
+      </article>
 
-      <!-- 3 -->
-      <div class="paper-item">
-        <div class="paper-year">2025–<br><span style="font-size:0.7rem;opacity:0.6">2026</span></div>
-        <div class="paper-content">
+      <article class="proj reveal" data-tags="del">
+        <div class="when">2025–26<small>Nov. 2025 to Feb. 2026</small></div>
+        <div>
           <h3>Support for Community Protection Mechanisms and Civilian Resilience in the Benin-Togo Border Areas (SMCP-BT)</h3>
-          <p>For the Center for Civilians in Conflict (CIVIC-PSOP), Nov. 2025 – Feb. 2026. Programming of questionnaires, data management and cleaning of data collected in Benin (Matéri, Gouandé) and Togo (Kpendjal 1), appending of the combined Benin-Togo dataset, contribution to the drafting of the analytical report and presentations.</p>
+          <div class="for">Center for Civilians in Conflict (CIVIC-PSOP) · Research Analyst / Report Co-author</div>
+          <ul>
+            <li>Inception meeting and contribution to the study guidelines; questionnaires programmed in XLSForm.</li>
+            <li>Data management and cleaning for Benin (Matéri, Gouandé) and Togo (Kpendjal 1): HFC, back-checks, post-collection cleaning.</li>
+            <li>Appending of the combined Benin-Togo dataset; contribution to the analytical report (forthcoming) and presentations.</li>
+          </ul>
+          <div class="chips"><span>XLSForm</span><span>Multi-country</span><span>Report co-author</span></div>
         </div>
-        <div class="paper-tag">Report Co-author</div>
-      </div>
+      </article>
 
-      <!-- 4 -->
-      <div class="paper-item">
-        <div class="paper-year">2025–<br><span style="font-size:0.7rem;opacity:0.6">2026</span></div>
-        <div class="paper-content">
+      <article class="proj reveal" data-tags="del">
+        <div class="when">2025–26<small>Aug. 2025 to Jan. 2026</small></div>
+        <div>
           <h3>Gender Inequalities in Bhutan using Civil Registration and Vital Statistics (CRVS-Bhutan)</h3>
-          <p>For the National Statistics Bureau of Bhutan and the Ministry of Health of Bhutan, Aug. 2025 – Jan. 2026. Analysis of CRVS microdata (75,659 observations) and MICS/NBS data (26,314 observations): logit and OLS regressions in <strong style="color:rgba(255,255,255,0.9)">Stata</strong>, Oaxaca-Blinder decomposition to quantify the contribution of the child's sex to observed registration and mortality gaps.</p>
-          <div class="data-badges">
-            <span class="data-badge" title="CRVS: Civil Registration and Vital Statistics system">CRVS</span>
-            <span class="data-badge" title="Oaxaca-Blinder decomposition: econometric method for decomposing gaps between groups">Oaxaca-Blinder</span>
-          </div>
+          <div class="for">National Statistics Bureau of Bhutan · Ministry of Health of Bhutan · Research Analyst / Report Co-author</div>
+          <ul>
+            <li>Analysis of CRVS microdata (75,659 observations) and MICS / NBS data (26,314 observations) on gender gaps in birth and death registration, infant and under-five mortality.</li>
+            <li>Logit regressions (probability of late registration) and OLS regressions (days between event and registration) in Stata; Oaxaca-Blinder decomposition of the contribution of the child's sex.</li>
+            <li>Tables and figures for the report (Stata, Jupyter / Python); contribution to the report (forthcoming) and presentations.</li>
+          </ul>
+          <div class="chips"><span>Stata</span><span>Oaxaca-Blinder</span><span>Logit / OLS</span><span>Python</span></div>
         </div>
-        <div class="paper-tag">Report Co-author</div>
-      </div>
+      </article>
 
-      <!-- 5 -->
-      <div class="paper-item">
-        <div class="paper-year">2025</div>
-        <div class="paper-content">
-          <h3>Nightlight Peacekeeping Project</h3>
-          <p>DEL internal research project (Aug. – Nov. 2025). Download and processing in <strong style="color:rgba(255,255,255,0.9)">Python</strong> of nighttime light satellite data for Sierra Leone, Côte d'Ivoire, and Liberia; production of cartographic visualizations and time series.</p>
+      <article class="proj reveal" data-tags="del">
+        <div class="when">2025<small>Aug. to Nov.</small></div>
+        <div>
+          <h3>Nightlight Peacekeeping</h3>
+          <div class="for">Development Expertise Lab · internal research</div>
+          <p>Download and processing in Python of nighttime light satellite data for Sierra Leone, Côte d'Ivoire and Liberia; cartographic visualisations and time series for the three countries.</p>
+          <div class="chips"><span>Python</span><span>Satellite data</span><span>Maps</span></div>
         </div>
-        <div class="paper-tag">Internal Project</div>
-      </div>
+      </article>
 
-      <!-- 6 -->
-      <div class="paper-item">
-        <div class="paper-year">2025</div>
-        <div class="paper-content">
+      <article class="proj reveal" data-tags="del">
+        <div class="when">2025<small>August</small></div>
+        <div>
           <h3>Afrobarometer Mali</h3>
-          <p>DEL internal research project (Aug. 2025). Cleaning and appending of the Afrobarometer Mali waves, harmonization of outcome variables for comparative analysis — final dataset of 13,051 observations.</p>
+          <div class="for">Development Expertise Lab · internal research</div>
+          <p>Cleaning and appending of the Afrobarometer Mali waves and harmonisation of outcome variables for comparative analysis; final dataset of 13,051 observations ready for analysis.</p>
+          <div class="chips"><span>Data cleaning</span><span>Harmonisation</span></div>
         </div>
-        <div class="paper-tag">Internal Project</div>
-      </div>
+      </article>
+
+      <article class="proj reveal" data-tags="earlier">
+        <div class="when">2024–25<small>Dec. 2024 to Feb. 2025</small></div>
+        <div>
+          <h3>Global Health Program Evaluation, Analysis, Research and Learning (GH PEARL)</h3>
+          <div class="for">Inawa Institute for The Palladium Group / USAID · Research Assistant</div>
+          <ul>
+            <li>Preparation and translation of training materials; data collection tools programmed in XLSForm and deployed on SurveyCTO.</li>
+            <li>Daily reporting, logistics for enumerator training, testing and correction of tools; mobile device set-up and equipment management.</li>
+            <li>Excel dashboard to monitor 51 field agents.</li>
+          </ul>
+          <div class="chips"><span>XLSForm</span><span>SurveyCTO</span><span>Excel dashboard</span></div>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="earlier">
+        <div class="when">2024<small>8 to 17 November</small></div>
+        <div>
+          <h3>Impact evaluation of the SME training and coaching program (SME Loop)</h3>
+          <div class="for">African School of Economics / IERPE · Enumerator</div>
+          <p>Field data collection from small and medium-sized enterprises.</p>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="earlier">
+        <div class="when">2024<small>Sept. to Oct.</small></div>
+        <div>
+          <h3>Benin Third Party Monitoring: co-design workshop</h3>
+          <div class="for">Inawa Institute for The Palladium Group / USAID · Facilitator</div>
+          <p>Co-design workshop with implementing partners and USAID AORs.</p>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="earlier">
+        <div class="when">2024<small>July to Sept.</small></div>
+        <div>
+          <h3>Does parental involvement improve student performance? The role of information asymmetry</h3>
+          <div class="for">CKDev, Centre Kemt pour le Développement · Data entry</div>
+          <p>Entry of grades for Grade 8 and Grade 9 students in CEGs of the Atlantique department; entry of school-fee data and correction of entry sheets.</p>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="earlier">
+        <div class="when">2023<small>Nov. to Dec.</small></div>
+        <div>
+          <h3>Explanatory factors of conflicts between herders and farmers in Benin</h3>
+          <div class="for">African School of Economics / IFM, IERPE · Field Supervisor</div>
+          <ul>
+            <li>Questionnaire programmed in Survey Solutions; participation in enumerator training.</li>
+            <li>Verification and validation of data, first quality checks, liaison with village chiefs and police commissioners.</li>
+            <li>Supervision of data collection from 440 respondents in Kika, Tchaourou commune, Borgou department.</li>
+          </ul>
+          <div class="chips"><span>Survey Solutions</span><span>Field supervision</span></div>
+        </div>
+      </article>
 
     </div>
-  </div>
-</section>
 
-<!-- EARLIER PROJECTS -->
-<section>
-  <div class="section-inner">
-    <div class="section-label">Track Record</div>
-    <h2 class="section-title">Earlier <em>Surveys &amp; Evaluations</em></h2>
-    <p class="section-sub">A selection of projects conducted prior to DEL, notably at Inawa Institute and the African School of Economics.</p>
-
-    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:1.5rem;" class="fade-up">
-
-      <div class="skill-group">
-        <div class="skill-group-label">GH PEARL — Global Health Program Evaluation, Analysis, Research and Learning (Dec. 2024 – Feb. 2025)</div>
-        <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.7;">Inawa Institute for The Palladium Group / USAID. Programming of data collection tools in XLSForm, deployment on SurveyCTO, Excel dashboard for the monitoring of 51 field agents.</p>
+    <h2 class="subhead">Publications and technical reports</h2>
+    <div class="grid-2">
+      <div class="pale-card reveal">
+        <div class="when">Forthcoming, 2026</div>
+        <h3>Gender Inequalities in Bhutan using Civil Registration and Vital Statistics</h3>
+        <div class="where">Joint report, Development Expertise Lab and National Statistics Bureau of Bhutan</div>
+        <p>Contribution to the data analysis and the drafting of the report.</p>
       </div>
-
-      <div class="skill-group">
-        <div class="skill-group-label">Impact Evaluation of the SME Training Program (SME Loop) (8–17 Nov. 2024)</div>
-        <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.7;">ASE / IERPE. Field data collection from small and medium-sized enterprises for the evaluation of the training and coaching program.</p>
-      </div>
-
-      <div class="skill-group">
-        <div class="skill-group-label">Benin Third Party Monitoring — Co-design Workshop (Sept.–Oct. 2024)</div>
-        <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.7;">Inawa Institute for The Palladium Group / USAID. Facilitation of a co-design workshop with implementing partners and USAID AORs.</p>
-      </div>
-
-      <div class="skill-group">
-        <div class="skill-group-label">Does Parental Involvement Improve Student Performance? (Jul.–Sept. 2024)</div>
-        <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.7;">CKDev. Entry of grades and financial data in CEGs in the Atlantique department, for a study on information asymmetry.</p>
-      </div>
-
-      <div class="skill-group">
-        <div class="skill-group-label">Herder-Farmer Conflicts in Benin (Nov.–Dec. 2023)</div>
-        <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.7;">ASE / IFM–IERPE. Field supervision of data collection from 440 respondents in the Kika arrondissement, Tchaourou commune.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- METHODS -->
-<section style="background:var(--navy); padding:70px 2rem;">
-  <div class="section-inner">
-    <div class="section-label" style="color:var(--gold)">Methodology</div>
-    <h2 class="section-title" style="color:var(--white); margin-bottom:3rem">Methods &amp; <em>Tools</em></h2>
-    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:1.5px; background:rgba(200,151,58,0.1);">
-      <div style="background:rgba(255,255,255,0.05); padding:2rem;">
-        <div style="color:var(--gold); font-size:0.7rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:1rem;">Econometric Methods</div>
-        <ul style="list-style:none; display:flex; flex-direction:column; gap:0.5rem;">
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Logit &amp; OLS Regressions</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Oaxaca-Blinder Decomposition</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Sub-group Analyses</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Applied Descriptive &amp; Econometric Analysis</li>
-        </ul>
-      </div>
-      <div style="background:rgba(255,255,255,0.05); padding:2rem;">
-        <div style="color:var(--gold); font-size:0.7rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:1rem;">Data Collection &amp; Fieldwork</div>
-        <ul style="list-style:none; display:flex; flex-direction:column; gap:0.5rem;">
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">XLSForm, SurveyCTO, Survey Solutions, KoboCollect</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">High-frequency checks (HFC) &amp; back-checks</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Appending &amp; cleaning of multi-country datasets</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Field supervision &amp; enumerator team management</li>
-        </ul>
-      </div>
-      <div style="background:rgba(255,255,255,0.05); padding:2rem;">
-        <div style="color:var(--gold); font-size:0.7rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:1rem;">Dashboards &amp; ML</div>
-        <ul style="list-style:none; display:flex; flex-direction:column; gap:0.5rem;">
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">R Shiny (real-time monitoring)</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Python (Jupyter, pandas), Stata, R, EViews, QGIS</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Computer Vision (YOLOv5, YOLOv8)</li>
-          <li style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Time-series Forecasting</li>
-        </ul>
+      <div class="pale-card reveal">
+        <div class="when">Forthcoming, 2026</div>
+        <h3>Support for Community Protection Mechanisms and Civilian Resilience in the Benin-Togo Border Areas (SMCP-BT)</h3>
+        <div class="where">Report by Development Expertise Lab for the Center for Civilians in Conflict</div>
+        <p>Contribution to data management and to the drafting of the report and presentation.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="contact-strip">
-  <h2>Interested in Collaborating?</h2>
-  <p>Open to conversations about applied research projects and data collection partnerships.</p>
-  <div class="contact-links">
-    <a href="https://www.devexpertiselab.com" target="_blank" class="contact-link primary">Development Expertise Lab</a>
-    <a href="http://www.linkedin.com/in/delphine-g-hounye" target="_blank" class="contact-link">LinkedIn</a>
-    <a href="mailto:delphine.hounye@devexpertiselab.com" class="contact-link">delphine.hounye@devexpertiselab.com</a>
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta reveal">
+      <div><h2>Interested in collaborating?</h2><p>Applied research, data collection partnerships, field coordination.</p></div>
+      <div class="row"><a href="mailto:delphine.hounye@devexpertiselab.com" class="btn btn-yellow">Write to me</a><a href="cv.html" class="btn btn-ghost">Full CV</a></div>
+    </div>
   </div>
-</div>
+</section>
 
-<footer>© 2026 Delphine Gbessouvègni Hounye · Development Expertise Lab</footer>
+<footer>
+  <div class="foot-name"><i></i>Delphine Hounye <small>Statistician-Economist · Development Expertise Lab</small></div>
+  <div class="foot-top">
+    <span>© 2026 Delphine Gbessouvègni Hounye. All rights reserved.</span>
+    <div class="links"><a href="research.html">Projects</a><a href="talks.html">Talks</a><a href="teaching.html">Teaching</a><a href="cv.html">CV</a><a href="mailto:delphine.hounye@devexpertiselab.com">Contact</a></div>
+  </div>
+
+</footer>
 <script src="main.js"></script>
+<script>
+  (function(){
+    var btns = document.querySelectorAll('#filters button');
+    var items = document.querySelectorAll('#projects .proj');
+    btns.forEach(function(b){ b.addEventListener('click', function(){
+      btns.forEach(function(x){ x.classList.remove('on'); }); b.classList.add('on');
+      var f = b.getAttribute('data-f');
+      items.forEach(function(it){ it.style.display = (f==='all' || it.getAttribute('data-tags').split(' ').indexOf(f)>-1) ? '' : 'none'; });
+    }); });
+  })();
+</script>
 </body>
 </html>
